@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio - Juliana Cardoso</title>
 </head>
@@ -11,31 +12,66 @@
 <body>
     <header>
         <ul>
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Portfolio</li>
-            <li>Contato</li>
+
+
+            <li>
+                <a href="#about-me">Sobre</a>
+            </li>
+
+            <li>
+                <a href="#portfolio">Portfólio</a>
+            </li>
+            <li>
+                <a href="#contact">Contato</a>
+            </li>
         </ul>
     </header>
-    <section class="pt-1">
-        <div class="req-1">
+    <div class="all">
+        <div class="center">
+            <section class="name">
+                <div class="photo">
+                    <div class="photo-img">
+                        <img src="/image/ju.png" alt="">
+                    </div>
+                </div>
+
+                <div class="text-name">
+                    <h1>Juliana Cardoso</h1>
+                    <h2>Desenvolvedora Front-End</h2>
+                </div>
+            </section>
+            <section class="about-me">
+                <div class="about-me_center">
+                    <p id="about-me">Sobre mim</p>
+                    <p>Aenean sagittis odio ac dolor bibendum sollicitudin. Fusceelit elementuarcu odio nec diam. Sed faucibus, du lacinia purus ut . Proin suscipit neque, você euismod nulla dapibus farofinho. Quisque hendrerit tincidunt posuere. In fermentum
+                        mauris diam, ut eleifend velit mollis et. Cras eget magna pretium, fringilla neque ac, pharetra ex.</p>
+
+                </div>
+            </section>
+            <section class="projects" id="portfolio">
+                <p>Projetos</p>
+                <div class="projects-box">
+
+                    <div class="projects-box-card">
+                        projeto 1
+                    </div>
+                    <div class="projects-box-card">
+                        projeto 2
+                    </div>
+                    <div class="projects-box-card">
+                        projeto 3
+                    </div>
+                </div>
+
+            </section>
+            <section class="contact" id="contact">
+
+            </section>
+
 
         </div>
-        <div class="req-2">
-            <img src="/image/ju.jpg" alt="">
-        </div>
-        <div class="req-3">
-
-        </div>
-    </section>
-    <section class="pt-2">
-        <div class="req-1">
-
-        </div>
-        <div class="req-2">
-
-        </div>
-    </section>
+    </div>
+    <script src="index.js "></script>
 </body>
 
 </html>
